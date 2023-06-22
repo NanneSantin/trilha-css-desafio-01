@@ -1,4 +1,4 @@
-@import url(/assets/css/global.css);
+@import url('/assets/css/global.css');
 
 body{
     background: black;
@@ -7,7 +7,7 @@ body{
 .banner {
     background-color: black;
     border-bottom: 1px solid #33A8DB80;
-    height: 600px;
+    height: 37.5rem;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('/assets/images/banner.png');
     background-origin: border-box;
     background-repeat: no-repeat;
@@ -17,19 +17,19 @@ body{
 h1{
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-style: normal;
 }
 
 h2{
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
     font-style: normal;
-    line-height: 38px;
+    line-height: 2.38rem;
     color: #33A8DB;
-    letter-spacing: 4px;
-    margin-bottom: 24px;
+    letter-spacing: 0.25rem;
+    margin-bottom: 1.5rem;
 }
 
 p{
@@ -39,19 +39,19 @@ p{
 }
 
 .banner-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
     text-align: center;
 }
 
 .logo {
     background: rgba(0, 0, 0, 0.2);
-    width: 260px;
-    height: 260px;
+    width: 16.25rem;
+    height: 16.25rem;
     margin: auto;
     border-radius: 50%;
-    padding: 16px;
-    margin-bottom: 16px;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .logo img {
@@ -61,7 +61,7 @@ p{
 }
 
 .banner h1 {
-    line-height: 47px;
+    line-height: 3rem;
     width: fit-content;
     background-image: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
     -webkit-background-clip: text;
@@ -71,26 +71,26 @@ p{
 }
 
 .banner p{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: auto;
-    margin-top: 16px;
-    margin-bottom: 24px;
-    line-height: 23px;
-    width: 600px;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+    width: 37.5rem;
     height: 100%;
 }
 
 .banner .banner-content button{
     color: #31a8dd;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     width: fit-content;
     height: 100%;
     font-style: normal;
-    line-height: 19px;
+    line-height: 1.25rem;
     background-color: transparent;
     border-image: linear-gradient(#3BA1CD, #1572B7);
     border-image-slice: 10;
@@ -98,32 +98,32 @@ p{
 }
 
 section {
-    margin: 100px auto;
+    margin: 6.25rem auto;
 }
 
 #course-content{
-    width: 800px;
+    width: 50rem;
     text-align: center;
 }
 
 #course-content .modules-list{
-    margin: 24px auto;
+    margin: 1.5rem auto;
 }
 
 #course-content .modules-list .module{
     color: white;
-    width: 530px;
-    height: 51px;
-    margin: 0 auto 24px;
+    width: 33.125rem;
+    height: 3rem;
+    margin: 0 auto 1.5rem;
     border: 1px solid #33A8DB;
     background-color: #252525;
-    padding: 16px;
+    padding: 1rem;
     border-radius: 100px;
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1rem;
+    line-height: 1.25rem;
 }
 
 #course-content .modules-list .module span{
@@ -131,11 +131,11 @@ section {
 }
 
 #transform-world{
-    height: 560px;
+    height: 35rem;
     background-size: cover;
     background-image: url('/assets/images/woman-code.png');
     background-attachment: fixed;
-    padding: 200px;
+    padding: 12.5rem;
     background-repeat: no-repeat;
     background-position: center;
     border-top: 1px solid #33A8DB80;
@@ -144,10 +144,10 @@ section {
 
 #transform-world p{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: lowercase;
     max-width: 250px;
-    line-height: 47px;
+    line-height: 3rem;
     color: white;
     text-shadow: 3px 2px 0px #33A8DB;
 }
@@ -155,20 +155,20 @@ section {
 
 #professional-challenges{
     text-align: center;
-    width: 800px;
+    width: 50rem;
 }
 
 #professional-challenges img{
-    margin: 32px 0;
+    margin: 2rem 0;
 }
 
 footer{
-    padding: 60px 0;
+    padding: 3.75rem 0;
     text-align: center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
     border-top: 1px solid #33A8DB80;
 }
 
 footer .dio-logo{
-    width: 300px;
+    width: 18.75rem;
 }
