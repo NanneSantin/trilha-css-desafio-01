@@ -1,4 +1,4 @@
-@import url('./assets/css/global.css');
+@import url('./css/global.css');
 
 body{
     background: black;
@@ -8,7 +8,7 @@ body{
     background-color: black;
     border-bottom: 1px solid #33A8DB80;
     height: 37.5rem;
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('./assets/images/banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
     background-origin: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,7 +133,7 @@ section {
 #transform-world{
     height: 35rem;
     background-size: cover;
-    background-image: url('./assets/images/woman-code.png');
+    background-image: url('../images/woman-code.png');
     background-attachment: fixed;
     padding: 12.5rem;
     background-repeat: no-repeat;
